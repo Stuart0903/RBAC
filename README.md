@@ -13,7 +13,7 @@ Features
 
 Installation
 1. Clone the repo
-   - git clone https://github.com/your-username/rbac-system.git
+   - git clone https://github.com/Stuart0903/RBAC.git
    - cd RBAC
 2. Install dependencies
    - npm install express mongoose jsonwebtoken bcryptjs dotenv
