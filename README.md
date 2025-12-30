@@ -13,11 +13,16 @@ Features
 
 Installation
 1. Clone the repo
-   - git clone https://github.com/Stuart0903/RBAC.git
-   - cd RBAC
-2. Install dependencies
-   - npm install express mongoose jsonwebtoken bcryptjs dotenv
-3. Set up .env
-   - PORT=5001
-   - mongoose_url="your-mongo-db-connection-string"
-   - JWT_SECRET="your_jwt_secret"
+   ```bash
+   git clone https://github.com/Stuart0903/RBAC.git
+   ```
+   ```bash
+   cd RBAC
+3. Install dependencies
+   ```bash
+   npm install express mongoose jsonwebtoken bcryptjs dotenv
+5. Set up .env
+   ```bash
+    PORT=5001
+    mongoose_url="your-mongo-db-connection-string"
+    JWT_SECRET="your_jwt_secret"
